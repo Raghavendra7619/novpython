@@ -1,3 +1,22 @@
-amt=int(input("enter total money"))
-tax=amt*(18/100) # or amt*0.18
-print("tax amount",tax) 
+maths=int(input(`enter maths marks:`))
+phy=int(input(`enter phy markes:`))
+chem=int(input(`enter chem marks:`))
+total marks=600
+sum_marks=maths+phy+chem
+per=(sum_markes/total_markes)*100
+print(per)
+if per<35:
+    print(`Grade is F`)
+elif per>35 and per<50:
+    print(`Grade C`)
+elif per in range(51,91):
+    print(Grade is b)
+elife per in range(91,101):
+    print(`Grade is A`)
+else:
+    print(`invalid per'')
+
+
+
+
+
