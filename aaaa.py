@@ -14,3 +14,4 @@ for x in lst:
         emp_1st.append(x)
 print(emp_1st)
 
+
